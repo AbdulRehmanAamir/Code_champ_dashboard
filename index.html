@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Overview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="p-8 min-h-screen">
+      <div class="mb-6 flex items-center">
+        <h2 class="text-2xl font-bold mr-2">Overview</h2>
+        <span class="text-gray-500 text-2xl">🛈</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <!-- Card 1 -->
+        <div class="bg-white p-4 rounded-lg shadow-md max-h-30 overflow-hidden">
+          <div class="flex items-center">
+            <i
+              class="fas fa-users text-xl mr-2 text-orange-500 rounded-3xl border-1 p-1 border-orange-300 bg-orange-100"
+            ></i>
+            <div class="text-xl text-black-100">Audience</div>
+            <span class="text-black-400 p-1 text-2xl">🛈</span>
+          </div>
+          <div class="flex items-center justify-between my-2">
+            <div class="text-5xl font-semibold">1.2M</div>
+            <span class="text-black-500 text-2xl relative" style="top: -50px"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></span>
+          </div>
+          <div class="flex justify-end">
+            <img src="/img/waves.png" class="h-16 w-auto" />
+          </div>
+          <div class="text-green-500 text-lg">
+            <i
+              class="fas fa-chart-line rounded-xl border-4 border-green-100 bg-green-100 bg-auto bg-center"
+            ></i>
+            25%
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <div class="flex items-center">
+            <i
+              class="fas fa-users text-xl mr-2 text-orange-500 rounded-3xl border-1 p-1 border-orange-300 bg-orange-100"
+            ></i>
+            <div class="text-xl text-black-100">Audience</div>
+            <span class="text-black-400 p-1 text-2xl">🛈</span>
+          </div>
+          <div class="flex items-center justify-between my-2">
+            <div class="text-5xl font-semibold">1.2M</div>
+            <span class="text-black-500 text-2xl relative" style="top: -50px"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></span>
+          </div>
+          <div class="flex justify-end">
+            <img src="/img/waves.png" class="h-14 w-auto" />
+          </div>
+          <div class="text-green-500 text-lg">
+            <i
+              class="fas fa-chart-line rounded-xl border-4 border-green-100 bg-green-100 bg-auto bg-center"
+            ></i>
+            25%
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white p-4 rounded-lg shadow-md">
+          <div class="flex items-center">
+            <i
+              class="fas fa-users text-xl mr-2 text-orange-500 rounded-3xl border-1 p-1 border-orange-300 bg-orange-100"
+            ></i>
+            <div class="text-xl text-black-100">Audience</div>
+            <span class="text-black-400 p-1 text-2xl">🛈</span>
+          </div>
+          <div class="flex items-center justify-between my-2">
+            <div class="text-5xl font-semibold">1.2M</div>
+            <span class="text-black-500 text-2xl relative" style="top: -50px"
+              ><i class="fa-solid fa-arrow-right"></i
+            ></span>
+          </div>
+          <div class="flex justify-end">
+            <img src="/img/waves.png" class="h-16 w-auto" />
+          </div>
+          <div class="text-green-500 text-lg">
+            <i
+              class="fas fa-chart-line rounded-xl border-4 border-green-100 bg-green-100 bg-auto bg-center"
+            ></i>
+            25%
+          </div>
+        </div>
+      </div>
+
+      <!-- Table Section -->
+      <div class="bg-white rounded-lg shadow-md p-9">
+        <div class="mb-4 text-xl font-bold">Overview</div>
+        <p class="text-gray-500 text-sm mb-2">
+          Get an overview of how you're doing on social media compared to
+          competitors..
+        </p>
+        <table class="min-w-full rounded-xl border-2 border-gray-200">
+          <thead>
+            <tr
+              class="bg-white-100 rounded-full text-black border-b border-gray-300 border-3"
+            >
+              <th class="py-3 px-4">
+                <input
+                  type="checkbox"
+                  class="form-checkbox h-5 w-5 text-blue-600 rounded-md accent-blue-600 focus:ring-2 focus:ring-blue-500 flex"
+                />
+              </th>
+              <th class="py-3 px-4 text-left border-gray-300 rounded-tl-lg">
+                Account Name
+              </th>
+              <th class="py-3 px-4 text-left border-gray-300">
+                Follower <span class="text-gray-500 px-1 text-xl">🛈</span>
+                <span class="text-grey-500 text-xl"
+                  ><i class="fa-solid fa-sort text-gray-500"></i>
+                </span>
+              </th>
+              <th class="py-3 px-4 text-left border-gray-300">
+                Brand Mentions
+                <span class="text-gray-500 px-1 text-xl">🛈</span>
+              </th>
+
+              <th class="py-3 px-4 text-left rounded-tr-lg">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Row 1 -->
+            <tr class="bg-gray-50 border-b border-green-200">
+              <td class="py-3 px-4">
+                <input
+                  type="checkbox"
+                  class="form-checkbox h-5 w-5 text-blue-600 rounded-md accent-blue-600 focus:ring-2 focus:ring-blue-500"
+                />
+              </td>
+              <td class="py-3 px-4 flex items-center">
+                <img
+                  src="img/img1.png"
+                  alt="Account logo"
+                  class="h-10 w-15 mr-3"
+                />
+                <span class="font-semibold">Samantha</span>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                57,800
+                <div class="text-xs text-gray-500">0/day</div>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                567
+                <div class="text-xs text-gray-500">0% of fans</div>
+              </td>
+              <td class="py-3 px-4">
+                <button class="hover:text-blue-700">
+                  <i class="far fa-edit text-2xl text-gray-600"></i>
+                </button>
+                <button class="ml-3 text-gray-600 text-2xl hover:text-red-700">
+                  <i class="far fa-trash-alt"></i>
+                </button>
+              </td>
+
+              <!-- Row 2 -->
+            </tr>
+
+            <tr class="bg-white border-b border-gray-200">
+              <td class="py-3 px-4">
+                <input
+                  type="checkbox"
+                  class="form-checkbox h-5 w-5 text-blue-600 rounded-md accent-blue-600 focus:ring-2 focus:ring-blue-500"
+                />
+              </td>
+              <td class="py-3 px-5 flex items-center">
+                <img
+                  src="img/img2.png"
+                  alt="Account logo"
+                  class="h-10 w-15 mr-3"
+                />
+                <span class="font-semibold">The Late Late Show</span>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                6,547
+                <div class="text-xs text-gray-500">-0.5/day</div>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                59,893
+                <div class="text-xs text-gray-500">0% of fans</div>
+              </td>
+              <td class="py-3 px-4">
+                <button class="hover:text-blue-700">
+                  <i class="far fa-edit text-2xl text-gray-600"></i>
+                </button>
+                <button class="ml-3 text-gray-600 text-2xl hover:text-red-700">
+                  <i class="far fa-trash-alt"></i>
+                </button>
+              </td>
+
+              <!-- Row 3 -->
+            </tr>
+
+            <tr class="bg-gray-50 border-b border-gray-200 min-w-full">
+              <td class="py-3 px-4">
+                <input
+                  type="checkbox"
+                  class="form-checkbox h-5 w-5 text-blue-600 rounded-md accent-blue-600 focus:ring-2 focus:ring-blue-500"
+                />
+              </td>
+              <td class="py-3 px-5 flex items-center">
+                <img
+                  src="img/img3.png"
+                  alt="Account logo"
+                  class="h-10 w-15 mr-3"
+                />
+                <span class="font-semibold">Devon Webb</span>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                99
+                <div class="text-xs text-gray-500">-0.5/day</div>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                39k
+                <div class="text-xs text-gray-500">0% of fans</div>
+              </td>
+              <td class="py-3 px-4">
+                <button class="hover:text-blue-700">
+                  <i class="far fa-edit text-2xl text-gray-600"></i>
+                </button>
+                <button class="ml-3 text-gray-600 text-2xl hover:text-red-700">
+                  <i class="far fa-trash-alt"></i>
+                </button>
+              </td>
+
+              <!-- Row 4 -->
+            </tr>
+
+            <tr class="bg-white border-b border-gray-200">
+              <td class="py-3 px-4"></td>
+              <td class="py-3 px-5 flex items-center">
+                <img
+                  src="img/img4.png"
+                  alt="Account logo"
+                  class="h-10 w-15 mr-3"
+                />
+                <span class="font-semibold">Devon Webb 2</span>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                47,890
+                <div class="text-xs text-gray-500">-0.5/day</div>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                893
+                <div class="text-xs text-gray-500">0% of fans</div>
+              </td>
+
+              <!-- Row 5 -->
+            </tr>
+
+            <tr class="bg-gray-50 border-b border-gray-200">
+              <td class="py-3 px-4"></td>
+              <td class="py-3 px-5 flex items-center">
+                <img
+                  src="img/IMG5.png"
+                  alt="Account logo"
+                  class="h-10 w-15 rounded-md mr-3"
+                />
+                <span class="font-semibold">Samantha 2</span>
+              </td>
+
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                39,893
+                <div class="text-xs text-gray-500">-0.5/day</div>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                6547
+                <div class="text-xs text-gray-500">0% of fans</div>
+              </td>
+            </tr>
+
+            <tr class="bg-white border-b border-gray-200">
+              <td class="py-3 px-4">
+                <input
+                  type="checkbox"
+                  class="form-checkbox h-5 w-5 text-blue-600 rounded-md accent-blue-600 focus:ring-2 focus:ring-blue-500"
+                />
+              </td>
+              <td class="py-3 px-5 flex items-center">
+                <img
+                  src="img/IMG6.png"
+                  alt="Account logo"
+                  class="h-10 w-15 mr-3"
+                />
+                <span class="font-semibold">Social Champ </span>
+              </td>
+              <td class="py-3 px-4 font-bold text-lg text-blue-900">
+                59,893
+                <div class="text-xs text-gray-400">-0.5/day</div>
+              </td>
+              <td class="py-3 px-4 text-lg font-bold text-blue-900">
+                599M
+                <div class="text-xs text-gray-400">0% of fans</div>
+              </td>
+              <td class="py-3 px-4">
+                <button class="hover:text-blue-700">
+                  <i class="far fa-edit text-2xl text-gray-600"></i>
+                </button>
+                <button class="ml-3 text-gray-600 text-2xl hover:text-red-700">
+                  <i class="far fa-trash-alt"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
